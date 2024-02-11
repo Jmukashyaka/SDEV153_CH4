@@ -1,0 +1,128 @@
+body { background-color: #EAEAEA;
+}
+
+* { box-sizing: border-box; }
+
+header { background-color: #96aad8;
+color: #FFFFFF ;
+text-align : center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height:120px;
+}
+
+#wrapper { background-image: linear-gradient( to bottom, #c2e0f0, #bbdefb, #3399cc);
+min-width: 700px;
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+box-shadow: 3px 2px 5px 0px black;
+}
+
+.second {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.first:after {
+  cont-ent: "";
+  display: table;
+  clear: both;
+}
+
+
+h1 {
+background-position: right;
+background-repeat: no-repeat;
+line-height: 200%;
+padding-left: 20px;
+height:72px;
+margin-bottom: 0%;
+letter-spacing: .25em;
+}
+
+h2 { color: #3399cc;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+color: #000033;
+}
+
+nav { font-weight: bold;
+float: left;
+width: 160px;
+padding: 20px 5px 0px 20px;
+}
+
+nav a {
+text-decoration: none;
+}
+
+nav a:link {
+color: #5C7FA3;
+}
+
+nav a:visited {
+color: #344873;
+}
+nav a:hover {
+color: #A52A2A;
+}
+
+nav ul {list-style-type: none;
+margin-left: auto;
+padding: 5px 5px 0px 5px;
+}
+
+#mobile {
+display: none;
+}
+
+main {padding-left: 2em;
+padding-right: 2em;
+background-color: #FFFFFF;
+margin-left: 170px;
+padding: 1px 20px;
+display: block;
+}
+
+#homehero {height: 300px;
+background-image: url(coast.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-left: 170px;
+}
+#trailhero { height: 300px;
+background-image: url(trail.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-left: 170px;
+}
+
+#yurthero { height: 300px;
+background-image: url(yurt.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-left: 170px;
+}
+
+dt { font-weight: bold;
+color: #000033;
+}
+
+resort { font-size: 1.2em;
+color: #000033;
+}
+footer { font-size: .7em;
+font-style: italic;
+text-align : center;
+padding: 10px;
+margin-left: 170px;
+}
+
+header, nav, main, footer {
+display : block;
+}
